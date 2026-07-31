@@ -1,0 +1,29 @@
+# Markdown (except README)
+*.md
+!README.md
+
+# Build artifacts
+*.o
+*.d
+*.exe
+lsm_engine
+
+# Test binaries
+tests/test_wal
+tests/test_memtable
+tests/test_sstable
+tests/test_compaction
+tests/test_engine
+tests/benchmark
+
+# Runtime data
+data/
+test_data_*/
+
+# Editor / OS
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
